@@ -1,0 +1,1 @@
+egrep -v 'PRES|hPa' soundings1981_1990.txt | egrep '76692|CAPE|CINS' > CAPE.csv
